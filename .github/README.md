@@ -36,6 +36,8 @@ To set this up, I used the following resources:
 To improve the use of `telescope.nvim` and as suggested by the package itself, I additionally
 installed `ripgrep` and `fd` with `brew`.
 
+To install...
+
 ## Showcase
 
 <img src="https://nvchad.com/features/nvdash.webp">
