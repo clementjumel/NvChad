@@ -37,7 +37,7 @@ To set this up, I used the following resources:
 
 To install this configuration, first install Neovim, following one of the standard methods.
 For instance, I chose to install Neovim with [Homebrew](https://brew.sh/).
-To improve the use of a Neovim plugin, `telescope.nvim`, and as suggested by the package itself,
+To improve the use of a Neovim plugin, `telescope.nvim`, and as suggested by the plugin itself,
 I additionally installed `ripgrep` and `fd` with the same method.
 Thus, I ran:
 
