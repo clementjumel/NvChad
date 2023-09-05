@@ -33,10 +33,31 @@ To set this up, I used the following resources:
 - https://www.youtube.com/watch?v=Mtgo-nP_r8Y
 - https://www.youtube.com/watch?v=4BnVeOUeZxc
 
-To improve the use of `telescope.nvim` and as suggested by the package itself, I additionally
-installed `ripgrep` and `fd` with `brew`.
+To install this configuration, first install Neovim, following one of the standard methods.
+For instance, I chose to install Neovim with [Homebrew](https://brew.sh/).
+To improve the use of a Neovim plugin, `telescope.nvim`, and as suggested by the package itself,
+I additionally installed `ripgrep` and `fd` with the same method.
+Thus, I ran:
 
-To install...
+```shell
+brew install neovim
+brew install ripgrep
+brew install fd
+```
+
+Then, clone this repository anywhere with git, using:
+
+```shell
+git clone https://github.com/clementjumel/NvChad.git ~/your/path/NvChad/
+```
+
+For instance, on my machine, `~/your/path/NvChad/` is `~/Code/clementjumel/NvChad`.
+Then, create a symlink from the Neovim configuration folder in the home directory to the forked
+NvChad repository, with:
+
+```shell
+ln -s ~/your/path/NvChad ~/.config/nvim
+```
 
 ## Showcase
 
