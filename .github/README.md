@@ -23,6 +23,19 @@
 
   </div>
 
+## Fork
+
+This repository is my own fork of NvChad, where I changed some configuration and added some
+plugins.
+
+To set this up, I used the following resources:
+
+- https://www.youtube.com/watch?v=Mtgo-nP_r8Y
+- https://www.youtube.com/watch?v=4BnVeOUeZxc
+
+To improve the use of `telescope.nvim` and as suggested by the package itself, I additionally
+installed `ripgrep` and `fd` with `brew`.
+
 ## Showcase
 
 <img src="https://nvchad.com/features/nvdash.webp">
