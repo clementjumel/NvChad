@@ -1,10 +1,4 @@
-exclude: |
-  (?x)^(
-    .github/.*|
-    lua/core/.*|
-    lua/plugins/.*|
-    init.lua
-  )$
+exclude: .github/
 
 repos:
   # Base pre-commit hook for simple checks & fixes
