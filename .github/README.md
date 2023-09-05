@@ -27,6 +27,8 @@
 
 This repository is my own fork of NvChad, where I changed some configuration and added some
 plugins.
+**Due to the structure of NvChad, changes should only be made inside the `./lua/custom/`
+directory.**
 
 To set this up, I used the following resources:
 
